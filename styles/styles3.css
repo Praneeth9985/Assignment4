@@ -7,7 +7,7 @@ main{
     margin: 20px auto;
     display: grid;
     grid-template-columns: 200px 250px 1fr;
-    grid-template-rows: 80px 400px auto 50px;
+    grid-template-rows: 80px 370px auto 50px;
     grid-gap: 20px;
 }
 .logo                           {grid-row: 1 / 2; grid-column: 1 / 2}
@@ -55,4 +55,8 @@ label > div{
  
 h1{
     font-size: 2.3em;
+    padding: 50px 70px 0px 40px;
+}
+h2{
+    padding: 10px 70px 0px 40px;
 }
